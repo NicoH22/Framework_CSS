@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="JS/navbar.js"></script>
+</head>
+<body>
+    <section class="navigation">
+        <div class="nav-container">
+            <div class="brand">
+                <a href="#">Logo</a>
+            </div>
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#"><span></span></a></div>
+                <ul class="nav-list">
+                    <li><a href="#">TEST1</a></li>
+                    <li><a href="#">TEST2</a></li>
+                    <li>
+                        <a>DEROULE 1</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">SLT</a></li>
+                            <li><a href="#">C MOI</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a>DEROULE 2</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#">PETIT 1</a></li>
+                            <li><a href="#">PETIT 2</a></li>
+                            <li><a href="#">PETIT 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">TEST 50</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <h1>GRID</h1>
+        <div class="container-fluid bg-success">Container fluid (fixed)</div>
+        <div class="container-fluid bg-success row">
+            <div class="bg-danger">Col</div>
+            <div class="bg-dark">Col</div>
+            <div class="bg-info">Col</div>
+            <div class="bg-light">Col</div>
+            <div class="bg-primary">Col</div>
+            <div class="bg-secondary">Col</div>
+            <div class="bg-warning">Col</div>
+            <div class="bg-white">Col</div>
+            <div class="bg-warning">Col</div>
+            <div class="bg-secondary">Col</div>
+            <div class="bg-primary">Col</div>
+            <div class="bg-danger">Col</div>
+        </div>
+
+        <div class="container bg-info">Container</div>
+        <div class="container bg-info">
+            <div class="row">
+                <div class="col-6">Row</div>
+                <div class="bg-primary col-start-2 col-7">Row</div>
+                <div class="bg-secondary col-start-3 col-8">Row</div>
+                <div class="bg-warning col-start-4 col-9">Row</div>
+            </div>
+        </div>
+
+    <h1>BUTTONS</h1>
+        <div class="container bg-primary">
+            <button class="btn hidden-print-L">Bouton standard</button>
+            <button class="btn btn-grey text-dark">Bouton standard gris</button>
+            <button class="btn btn-red text-error">Bouton standard rouge</button>
+            <button class="btn btn-green text-light">Bouton standard vert</button>
+            <button class="btn btn-blue">Bouton standard bleu</button>
+            <button class="btn btn-yellow">Bouton standard jaune</button><br>
+            <button class="btn btn-S">Petit bouton</button>
+            <button class="btn btn-grey btn-S">Petit bouton gris</button>
+            <button class="btn btn-red btn-S">Petit bouton rouge</button>
+            <button class="btn btn-green btn-S">Petit bouton vert</button>
+            <button class="btn btn-blue btn-S">Petit bouton bleu</button>
+            <button class="btn btn-yellow btn-S">Petit bouton jaune</button><br>
+            <button class="btn btn-XS">Mini Bouton</button>
+            <button class="btn btn-grey btn-XS">Mini bouton gris</button>
+            <button class="btn btn-red btn-XS">Mini bouton rouge</button>
+            <button class="btn btn-green btn-XS">Mini bouton vert</button>
+            <button class="btn btn-blue btn-XS">Mini bouton bleu</button>
+            <button class="btn btn-yellow btn-XS">Mini bouton jaune</button>
+            <button class="btn btn-full">Bouton full width</button>
+            <p>Boutons avec le selector active :</p>
+            <button class="btn btn-L">Bouton large</button>
+            <button class="btn btn-grey btn-L">Bouton large gris</button>
+            <button class="btn btn-red btn-L btn-disabled">Bouton large rouge</button>
+            <button class="btn btn-green btn-L">Bouton large vert</button>
+            <button class="btn btn-blue btn-L">Bouton large bleu</button>
+            <button class="btn btn-yellow btn-L">Bouton large jaune</button><br>
+        </div>
+
+    <h1>IMAGES</h1>
+        <div class="container-fluid bg-info">
+            <img alt="test1" class="img-responsive img-rounded hidden-print-L" src="http://lorempixel.com/output/city-q-c-440-280-7.jpg">
+            <img alt="test1" class="img-responsive img-circle hidden-print-M" src="http://lorempixel.com/output/city-q-c-440-280-6.jpg">
+            <img alt="test1" class="img-responsive img-thumbnail hidden-print-XL" src="http://lorempixel.com/output/abstract-q-c-440-280-1.jpg">
+            <img alt="test1" class="img-responsive img-blur hidden-print-S" src="http://lorempixel.com/output/transport-q-c-440-280-7.jpg">
+        </div>
+
+    <h1>ALERTS</h1>
+        <div class="alert alert-warning hidden-S" role="alert">
+            <strong>ALERTE !</strong> Tranquille y'a rien !
+        </div>
+        <div class="alert alert-danger hidden-M" role="alert">
+            <strong>ALERTE !</strong> Tranquille y'a rien !
+        </div>
+        <div class="alert alert-primary hidden-L" role="alert">
+            <strong>ALERTE !</strong> Tranquille y'a rien !
+        </div>
+        <div class="alert alert-success hidden-XL" role="alert">
+            <strong>ALERTE !</strong> Tranquille y'a rien !
+        </div>
+</body>
+</html>
