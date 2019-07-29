@@ -1,2 +1,4 @@
 # Framework_CSS
-  Training project on CSS / SASS
+
+    In progress...
+    Training project on CSS / SASS.
